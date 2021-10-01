@@ -1,16 +1,135 @@
-
-.headernav
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
+body{
+    max-width: 1280px;
+    margin:  0 auto;
+    font-family: 'Raleway';
 }
 
-.headersignup
+header{
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 150px;
+}
+
+
+.logo img{
+    width: 100%;
+}
+
+.Ancres
 {
     display: flex;
-    justify-content: flex-end;
-    text-align: right;
+    padding: 0;
+    margin-left: 40%;
+}
+
+
+.Ancres li{
+    list-style: none;
+    padding: 0 20%;
+}
+
+.Ancres a .Inscription a{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.Ancres a:hover{
+    border-top: solid 1px blue;
+    padding-bottom: 1em;
+}
+
+
+.Inscription a{
+    font-weight: bold;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-de-la-page .titre{
+    font-size: 1.3em;
+}
+
+
+.filtres{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0;
+    margin: 2em 1.5em 0 1.5em;
+}
+
+.filtres li{
+    list-style: none;
+    margin-right: 5%;
+}
+
+.filtres a {
+    text-decoration: none;
+    color: black;
+}
+
+.filtres li:not(.Filtres){
+    border: #0065FC solid 1px;
+    border-radius: 15px;
+    padding-right: 1.5em;
+    border-left: none;
+    font-weight: bold;
+}
+
+.filtres .Filtres{
+    font-weight: bold;
+}
+
+.filtres i{
+    padding: 0.4em;
+    border: solid 1px white;
+    border-radius: 15px;
+    margin-right: 0.8em;
+    color: blue;
+    background-color: #deebff;
+}
+
+.filtres li:not(.Filtres):hover{
+    background-color: #deebff;
+    padding-right: 3em;
+}
+
+
+.disponibilités{
+    display: flex;
+    margin: 2em 1.5em 0 1.5;
+    align-items: center;
+}
+
+.disponibilités i{
+    margin-right: 5px;
+    border: solid white 2px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 1em;
+}
+
+
+.Hebergements{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8em;
+    background-color: white;
+    padding-left: 1.5em;
+}
+.site1 {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
@@ -22,7 +141,7 @@
 }
 
 
-.site1 article{
+.site1 article {
     width: 230px;
     padding: 0.3em;
     border-radius: 0.7em;
@@ -31,9 +150,197 @@
     display: flex;
     flex-direction: column;
 
+}
+
+.hebergements h2 {
+    font-size: 1.2em;
+    margin: 0;
+    padding-top: 1.5em;
+}
+
+.hebergements .plus {
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+
+.site1 .Presentation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+
+.Presentation h4{
+    font-size: 0.9em;
+    margin-bottom: 0;
+
+}
+
+
+.Presentation p{
+    font-size: 0.9em;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+
+.un{
+    color: blue;
+}
+
+.deux{
+    color: white;
+}
+
+
+.Populaires {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.8em;
+    padding-left: 0  1.5em;
+    margin-left: 1.5em;
+}
+
+.Populaires .titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Populaires h2 {
+    margin: 0;
+    font-size: 1.2em;
+    padding-top: 1.5em;
+}
+
+.site2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.site2 article{
+
+    display: flex;
+    width: 330px;
+    height: 130px;
+    margin-bottom: 1.5em;
+    padding: 0.3em;
+    border-radius: 0.7em;
+    background-color: white;
+
+}
+
+
+.site2 img {
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.7em 0 0 0.7em;
+}
+
+.MainContent {
+    display: flex;
+    margin: 1.5em 1.5em 0 1.5em;
+}
 
 
 
+.site2 .Presentation2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5em;
+}
+
+.Presentation2 h4{
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+.Presentation2 i{
+    margin-top: 2.5em;
+}
+
+.Presentation2 p{
+    font-size: 0.9em;
+    margin: 0;
+}
+
+
+.Activités {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+
+}
+
+.Activités h2 {
+    margin-left: 1.5em;
+    font-size: 1.2em;
+
+}
+
+.site3{
+    margin: 1.5em 1.5em 0 1.5em;
+    display: flex;
+}
+
+.site3 article{
+    border: solid white 2px;
+    border-radius: 0.9em;
+    width: 300px;
+    display: flex;
+    margin-left: 1.5em;
+    flex-direction: column;
+}
+
+.site3 img {
+    border-radius: 0.8em 0.8em 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.site3 .Port {
+    margin-left: 0;
+}
+
+.site3 .Port img{
+    height: 320px;
+
+}
+
+.site3 .Pomègues img{
+    height: 160px;
+}
+
+.site3 .Frioul img{
+    height: 90px;
+}
+
+.site3 .Calanques img{
+    height: 320px;
+}
+
+.site3 .Notre-Dame img{
+    height: 110px;
+}
+
+.site3 .Parc img{
+    height: 140px;
+}
+
+
+.site3 .Frioul .Parc{
+    margin-top: 1.5em;
+}
+
+.site3 h4{
+    margin: 0;
+    font-size: 00.9em;
+    padding: 10px 0 10px 10px;
+}
 
 
 footer 
@@ -66,10 +373,6 @@ footer div
 
 
 
-header
-{
-    display: flex;
-}
 
 
 
