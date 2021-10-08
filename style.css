@@ -23,7 +23,7 @@ header{
 {
     display: flex;
     padding: 0;
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 
@@ -112,9 +112,9 @@ header{
 
 .disponibilités i{
     margin-right: 5px;
-    border: solid white 2px;
+    border: solid #F2F2F2 2px;
     background-color: #0065FC;
-    color: white;
+    color: #F2F2F2;
     border-radius: 1em;
 }
 
@@ -123,7 +123,7 @@ header{
     display: flex;
     flex-direction: column;
     border-radius: 0.8em;
-    background-color: white;
+    background-color: #F2F2F2;
     padding-left: 1.5em;
 }
 .site1 {
@@ -145,7 +145,7 @@ header{
     width: 230px;
     padding: 0.3em;
     border-radius: 0.7em;
-    background-color: white; 
+    background-color: #F2F2F2; 
     margin: 1.5em 1.5em 0 0;
     display: flex;
     flex-direction: column;
@@ -185,18 +185,18 @@ header{
 
 
 .un{
-    color: blue;
+    color: #0065FC;
 }
 
 .deux{
-    color: white;
+    color: #F2F2F2;
 }
 
 
 .Populaires {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #F2F2F2;
     border-radius: 0.8em;
     padding-left: 0  1.5em;
     margin-left: 1.5em;
@@ -228,7 +228,7 @@ header{
     margin-bottom: 1.5em;
     padding: 0.3em;
     border-radius: 0.7em;
-    background-color: white;
+    background-color: #F2F2F2;
 
 }
 
@@ -251,6 +251,7 @@ header{
     display: flex;
     flex-direction: column;
     margin: 0 1.5em;
+    
 }
 
 .Presentation2 h4{
@@ -287,7 +288,7 @@ header{
 }
 
 .site3 article{
-    border: solid white 2px;
+    border: solid #F2F2F2 2px;
     border-radius: 0.9em;
     width: 300px;
     display: flex;
@@ -387,3 +388,225 @@ footer p{
     margin-bottom: 0.5em;
 
 }
+
+/*Responsive*/
+@media screen and (max-width:768px){
+
+header{
+    margin: O;
+
+}
+.Menu{
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left: 1em;
+}
+.Inscription{
+    margin-right: 1em;
+}
+
+.Ancres{
+    margin: 0;
+    justify-content: space-around;
+    order: 3;
+    flex-basis: 100%;
+}
+
+.Ancres li {
+    padding: 0;
+}
+
+.Ancres a :hover{
+    border-top: none;
+
+}
+.Ancres:hover{
+    border-bottom: solid 1px #0065FC;
+}
+
+.description-de-la-page{
+
+    margin: 0;
+
+}
+
+.description-de-la-page .titre {
+    margin: 0 0 0 0;
+}
+    
+.description-de-la-page p{
+    margin: 0;
+    font-size: 0.5em;
+}
+
+
+.filtres{
+    margin: 1.em 1.em 0 1.em;
+    flex-wrap: wrap;
+}
+
+
+.filtres li:not(.Filtres) {
+    margin: 0 0.5em 0.5em 0;
+    font-size: 1.5em;
+}
+
+
+.Filtres{
+    width: 100%;
+    margin-bottom: 1em;
+
+}
+
+
+.disponibilités{
+    margin: 1.em;
+    align-items: flex-start;
+}
+
+.disponibilités p{
+    margin: 0;
+    font-size: 0.5em;
+
+}
+
+.MainContent{
+    margin: 0;
+    flex-direction: column;
+}
+
+.Hebergements{
+    margin: 0;
+    padding: 0 1.em;
+    background-color: #FFF;
+}
+.Hebergements h2 {
+    margin-bottom: 1em;
+}
+.Hebergements .plus{
+    padding-top: 1em;
+}
+
+
+.Populaires{
+    margin: 1.5em;
+    padding: 0 1em 1em 0;
+    order: 1;
+    border-radius: 0;
+}
+.site2 article{
+    width: 100%;
+    margin-bottom: 0.5em;
+    background-color: #FFF;
+}
+
+.site2 .Presentation2 {
+    margin: 5;
+   
+}
+
+.site1 article{
+    margin: 0 0 0.5em 0;
+    border: solid #F2F2F2 1px;
+    width: 100%;
+}
+
+.site1 .Presentation{
+    margin-left: 0.5em;
+}
+
+.site3 article{
+    width: 100%;
+    margin: 0 0 0.5em 0;
+}
+
+.site3 .Frioul, .site3 .Parc{
+    margin-top: 0;
+}
+
+.site3 {
+    margin: 0;
+    flex-direction: column;
+}
+
+.Activités h2 {
+    margin: 1.5em;
+}
+.Activités{
+    margin: 0.5em 0 0 0;
+    padding: 0 1em;
+}
+.site3 .Port img{
+    height: 120px;
+}
+.site3 .Frioul img{
+    height: 120px;
+}
+.site3 .Notre-Dame img{
+    height: 120px;
+}
+.site3 .Pomègues {
+    height: 120px;
+}
+.site3 .Parc{
+    height: 120px;
+}
+.site3 .Calanques{
+    height: 120px;
+}
+
+footer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .hebergements, .propos{
+    margin: 0;
+}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    
+.Ancres{
+    margin: 100%;
+    order: 3;
+    margin: 0;
+}
+
+.Menu{
+    flex-wrap: wrap;
+}
+
+.MainContent{
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.Populaires{
+    margin: 0;
+    order: 1;
+}
+
+.site2 { 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.Hebergements{
+    order: 2;
+    margin-top: 1em;
+}
+.site1{
+    justify-content: space-between;
+}
+
+}
+
+
+
+
+
+
+
