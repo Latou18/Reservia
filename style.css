@@ -19,7 +19,7 @@ header{
     width: 100%;
 }
 
-.Ancres
+.ancres
 {
     display: flex;
     padding: 0;
@@ -27,28 +27,28 @@ header{
 }
 
 
-.Ancres li{
+.ancres li{
     list-style: none;
     padding: 0 20%;
 }
 
-.Ancres a .Inscription a{
+.ancres a .inscription a{
     text-decoration: none;
     color: blue;
 
 }
 
-.Ancres a:hover{
+.ancres a:hover{
     border-top: solid 1px blue;
     padding-bottom: 1em;
 }
 
 
-.Inscription a{
+.inscription a{
     font-weight: bold;
 }
 
-.Menu {
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,6 +56,10 @@ header{
 
 .description-de-la-page .titre{
     font-size: 1.3em;
+}
+
+form{
+    margin-top: 2em;
 }
 
 .search {
@@ -80,7 +84,7 @@ header{
 
 .search input[type="submit"]{
     border: none;
-    border-radius: 10px 0 10px 0;
+    border-radius: 0 10px 10px 0;
     color: white;
     background-color: #0065FC;
 
@@ -132,13 +136,13 @@ header{
 }
 
 
-.disponibilités{
+.disponibilites{
     display: flex;
     margin: 2em 1.5em 1em 1.5;
     align-items: center;
 }
 
-.disponibilités i{
+.disponibilites i{
     margin-right: 5px;
     border: solid #F2F2F2 2px;
     background-color: #0065FC;
@@ -147,7 +151,7 @@ header{
 }
 
 
-.Hebergements{
+.hebergements{
     display: flex;
     flex-direction: column;
     border-radius: 0.8em;
@@ -193,21 +197,21 @@ header{
     padding-top: 1.5em;
 }
 
-.site1 .Presentation{
+.site1 .presentation{
     display: flex;
     flex-direction: column;
     margin-left: 1em;
 }
 
 
-.Presentation h4{
+.presentation h4{
     font-size: 0.9em;
     margin-bottom: 0;
 
 }
 
 
-.Presentation p{
+.presentation p{
     font-size: 0.9em;
     margin: 0;
     line-height: 1.5em;
@@ -223,7 +227,7 @@ header{
 }
 
 
-.Populaires {
+.populaires {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -232,13 +236,13 @@ header{
     margin-left: 1.5em;
 }
 
-.Populaires .titre{
+.populaires .titre{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.Populaires h2 {
+.populaires h2 {
     margin: 0;
     font-size: 1.2em;
     padding-top: 1.5em;
@@ -270,43 +274,43 @@ header{
     border-radius: 0.7em 0 0 0.7em;
 }
 
-.MainContent {
+.maincontent {
     display: flex;
     margin: 1.5em 1.5em 0 1.5em;
 }
 
 
 
-.site2 .Presentation2{
+.site2 .presentation2{
     display: flex;
     flex-direction: column;
     margin: 0 1.5em;
     
 }
 
-.Presentation2 h4{
+.presentation2 h4{
     font-size: 0.9em;
     margin-bottom: 0;
 }
 
-.Presentation2 i{
+.presentation2 i{
     margin-top: 2.5em;
 }
 
-.Presentation2 p{
+.presentation2 p{
     font-size: 0.9em;
     margin: 0;
 }
 
 
-.Activités {
+.activites {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
 
 }
 
-.Activités h2 {
+.activites h2 {
     margin-left: 1.5em;
     font-size: 1.2em;
     padding-top: 1.5em;
@@ -337,43 +341,43 @@ header{
 }
 
 
-.site3 .Port {
+.site3 .port {
     margin-left: 0;
 }
 
-.site3 .Port img{
+.site3 .port img{
     height: 320px;
 
 }
 
-.site3 .Pomègues img{
+.site3 .pomegues img{
     height: 160px;
 }
 
-.site3 .Frioul img{
+.site3 .frioul img{
     height: 90px;
 }
 
-.site3 .Calanques img{
+.site3 .calanques img{
     height: 320px;
 }
 
-.site3 .Notre-Dame img{
+.site3 .notre-dame img{
     height: 110px;
 }
 
-.site3 .Parc img{
+.site3 .parc img{
     height: 140px;
     
 }
 
 
-.site3 .Frioul {
+.site3 .frioul {
     margin-top: 1.5em;
     
 }
 
-.site3 .Parc {
+.site3 .parc {
     margin-top: 1.5em;
 }
 
@@ -431,32 +435,32 @@ header{
     margin: 0%;
 
 }
-.Menu{
+.menu{
     flex-wrap: wrap;
 }
 .logo{
     margin-left: 1em;
 }
-.Inscription{
+.inscription{
     margin-right: 1em;
 }
 
-.Ancres{
+.ancres{
     margin: 0;
     justify-content: space-around;
     order: 3;
     flex-basis: 100%;
 }
 
-.Ancres li {
+.ancres li {
     padding: 0;
 }
 
-.Ancres a :hover{
+.ancres a :hover{
     border-top: none;
 
 }
-.Ancres:hover{
+.ancres:hover{
     border-bottom: solid 1px #0065FC;
 }
 
@@ -475,6 +479,9 @@ header{
     font-size: 0.9em;
 }
 
+form {
+    margin-top: 1em;
+}
 .search{
    border: solid #F2F2F2 1px;
    border-radius: 0.8em;
@@ -486,7 +493,7 @@ header{
 }
 
 .search .iconecache{
-    display: flex;
+    display: none;
     padding: 0.7em;
     border-radius: 0.8em;
     background-color: #0065FC;
@@ -521,36 +528,36 @@ header{
 }
 
 
-.disponibilités{
+.disponibilites{
     margin: 1em;
     align-items: flex-start;
 }
 
-.disponibilités p{
+.disponibilites p{
     margin: 0;
     font-size: 0.5em;
 
 }
 
-.MainContent{
+.maincontent{
     margin: 0;
     flex-direction: column;
 }
 
-.Hebergements{
+.hebergements{
     margin: 0.5em 0 0 0;
     padding: 0 1em;
     background-color: white;
     order: 2;
 }
-.Hebergements h2 {
+.hebergements h2 {
     margin-bottom: 1.5em;
 }
-.Hebergements .plus{
+.hebergements .plus{
     padding-top: 1em;
 }
 
-.Populaires{
+.populaires{
     margin: 0;
     padding: 0 1em 1em 1em;
     order: 1;
@@ -562,7 +569,7 @@ header{
     background-color: #FFF;
 }
 
-.site2 .Presentation2 {
+.site2 .presentation2 {
     margin: 0 0 0 0.5em;
    
 }
@@ -573,7 +580,7 @@ header{
     width: 100%;
 }
 
-.site1 .Presentation{
+.site1 .presentation{
     margin-left: 0.5em;
 }
 
@@ -585,27 +592,27 @@ header{
 }
 
 
-.site3 .Frioul, .site3 .Parc{
+.site3 .frioul, .site3 .parc{
     margin-top: 0;
 }
 
-.site3  .Pomègues {
+.site3  .pomegues {
     margin: 0 0 3em 0;
 }
 
-.site3  .Calanques {
+.site3  .calanques {
     margin: 0 0 3em 0;
 }
 
-.site3  .Calanques img {
+.site3  .calanques img {
     height: 120px;
 }
 
-.site3  .Parc img {
+.site3  .parc img {
     height: 120px;
 }
 
-.site3  .Pomègues img {
+.site3  .pomegues img {
     height: 120px;
 }
 
@@ -614,29 +621,29 @@ header{
     flex-direction: column;
 }
 
-.Activités h2 {
+.activites h2 {
     margin: 1.5em 0px;
 }
-.Activités{
+.activites{
     margin: 0.5em 0 0 0;
     padding: 0 1em;
 }
-.site3 .Port img{
+.site3 .port img{
     height: 120px;
 }
-.site3 .Frioul img{
+.site3 .frioul img{
     height: 120px;
 }
-.site3 .Notre-Dame img{
+.site3 .notre-dame img{
     height: 120px;
 }
-.site3 .Pomègues {
+.site3 .pomegues {
     height: 120px;
 }
-.site3 .Parc{
+.site3 .parc{
     height: 120px;
 }
-.site3 .Calanques{
+.site3 .calanques{
     height: 120px;
 }
 
@@ -653,22 +660,22 @@ footer .hebergements, .propos{
 
 @media screen and (min-width:768px) and (max-width: 1023px){
     
-.Ancres{
+.ancres{
     margin: 100%;
     order: 3;
     margin: 0;
 }
 
-.Menu{
+.menu{
     flex-wrap: wrap;
 }
 
-.MainContent{
+.maincontent{
     flex-wrap: wrap;
     margin: 0;
 }
 
-.Populaires{
+.populaires{
     margin: 0;
     order: 1;
 }
@@ -678,7 +685,7 @@ footer .hebergements, .propos{
     justify-content: space-evenly;
 
 }
-.Hebergements{
+.hebergements{
     order: 2;
     margin-top: 1em;
 }
@@ -698,18 +705,23 @@ footer .hebergements, .propos{
     justify-content: space-between;
 }
 
-.site3 .Port{
-    margin-bottom: 1.5em;
+.site3 .port{
+    margin-bottom: 2em;
 }
 
-.site3 .Frioul{
-    margin-bottom: 1.5em;
+.site3 .frioul{
+    margin-bottom: 2em;
 }
 
-.site3 .Calanques{
-    margin-bottom: 1.5em;
+.site3 .calanques{
+    margin-bottom: 3em;
 
 }
+.site3 .notre-dame{
+    margin-bottom: 2em;
+}
+
+
 .site3 article {
     width: 100%;
     margin: 0;
