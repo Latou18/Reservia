@@ -655,6 +655,10 @@ footer .hebergements, .propos{
     margin: 0;
 }
 
+footer .hebergements{
+    padding: 0;
+    background-color: #F2F2F2;
+}
 
 
 
@@ -739,6 +743,11 @@ footer .propos, footer .hebergements{
     margin-right: 0;
 }
 
+}
+
+footer .hebergements{
+    padding: 0;
+    background-color: #F2F2F2;
 }
 
 
