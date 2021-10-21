@@ -204,7 +204,7 @@ form{
 }
 
 
-.presentation h4{
+.presentation h3{
     font-size: 0.9em;
     margin-bottom: 0;
 
@@ -254,12 +254,12 @@ form{
     margin-top: 1.5em;
 }
 
-.site2 article{
-
+.site2 article
+{
     display: flex;
     width: 330px;
     height: 130px;
-    margin-bottom: 1.5em;
+    margin: 1.5em 1.5em 1.5em 1.5em;
     padding: 0.3em;
     border-radius: 0.7em;
     background-color: white;
@@ -288,7 +288,7 @@ form{
     
 }
 
-.presentation2 h4{
+.presentation2 h3{
     font-size: 0.9em;
     margin-bottom: 0;
 }
@@ -381,7 +381,7 @@ form{
     margin-top: 1.5em;
 }
 
-.site3 h4{
+.site3 h3 {
     margin: 0;
     font-size: 0.9em;
     padding: 10px 0 10px 10px;
