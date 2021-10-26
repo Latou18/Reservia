@@ -17,6 +17,7 @@ header{
 
 .logo img{
     width: 100%;
+
 }
 
 .ancres
@@ -24,12 +25,14 @@ header{
     display: flex;
     padding: 0;
     margin-left: 50%;
+    
 }
 
 
 .ancres li{
     list-style: none;
     padding: 0 20%;
+    
 }
 
 .ancres a .inscription a{
@@ -39,8 +42,8 @@ header{
 }
 
 .ancres a:hover{
-    border-top: solid 1px blue;
-    padding-bottom: 1em;
+    border-top: solid 1px #0065FC;
+    padding-top: 2em;
 }
 
 
@@ -58,12 +61,17 @@ header{
     font-size: 1.3em;
 }
 
+.description-de-la-page {
+    margin: 2em;
+}
+
 form{
     margin-top: 2em;
 }
 
 .search {
     display: flex;
+    margin: 2em;
 }
 
 .search .iconecache
@@ -95,7 +103,7 @@ form{
     justify-content: flex-start;
     align-items: center;
     padding:0;
-    margin: 2em 1.5em 0 1.5em;
+    margin: 2em;
 }
 
 .filtres li{
@@ -138,7 +146,7 @@ form{
 
 .disponibilites{
     display: flex;
-    margin: 2em 1.5em 1em 1.5;
+    margin: 2em;
     align-items: center;
 }
 
@@ -314,8 +322,7 @@ form{
 .activites h2 {
     margin-left: 1.5em;
     font-size: 1.2em;
-    padding-top: 1.5em;
-
+    
 }
 
 .site3{
@@ -438,10 +445,18 @@ header{
 }
 .menu{
     flex-wrap: wrap;
+    margin: 1em;
 }
 .logo{
     margin-left: 1em;
+    
 }
+
+.logo img {
+    padding: 1em;
+    
+}
+
 .inscription{
     margin-right: 1em;
 }
@@ -454,7 +469,7 @@ header{
 }
 
 .ancres li {
-    padding: 0 20%;
+    padding: 0;
 }
 
 .ancres a :hover{
@@ -467,16 +482,17 @@ header{
 
 .description-de-la-page{
 
-    margin: 1em 1em 1em 0;
+    margin: 0.5em 0.5em
 
 }
 
 .description-de-la-page .titre {
-    margin: 0 0 0.3em 0;
+    margin: 0 0.3em 0 0.3em;
+    padding: 1em;
 }
     
 .description-de-la-page p{
-    margin: 0;
+    margin: 0 1.5em 0 1.5em;
     font-size: 0.9em;
 }
 
@@ -547,7 +563,7 @@ form {
 
 .hebergements{
     margin: 0.5em 0 0 0;
-    padding: 0 1em;
+    padding: 1em 2em 2em 1em;
     background-color: white;
     order: 2;
 }
@@ -564,10 +580,15 @@ form {
     order: 1;
     border-radius: 0;
 }
+.populaires h2 {
+    padding-left: 0;
+}
 .site2 article{
     width: 100%;
-    margin-bottom: 0.5em;
+    margin: 0 0 0.5em 0;
     background-color: #FFF;
+    padding: 0;
+    border: solid white;
 }
 
 .site2 .presentation2 {
@@ -590,6 +611,7 @@ form {
 .site3 article{
     width: auto;
     margin: 0 0 0.5em 0;
+    
 }
 
 
@@ -620,6 +642,7 @@ form {
 .site3 {
     margin: 0;
     flex-direction: column;
+
 }
 
 .activites h2 {
