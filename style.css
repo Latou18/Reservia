@@ -176,12 +176,12 @@ form{
 
 .site1 div {
     width: 230px;
-    padding: 0.3em;
     border-radius: 0.7em;
     background-color: white; 
-    margin: 1.5em 1.5em 0 0;
+    margin: 1.5em 1.5em 0 0.5em;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 
 }
 
@@ -199,7 +199,7 @@ form{
 .site1 .presentation{
     display: flex;
     flex-direction: column;
-    margin-left: 1em;
+    
 }
 
 
@@ -266,6 +266,7 @@ form{
     padding: 0.3em;
     border-radius: 0.7em;
     background-color: white;
+    overflow: hidden;
 
 }
 
@@ -324,11 +325,10 @@ form{
 }
 
 .site3 div{
-    border: solid #F2F2F2 2px;
     border-radius: 0.9em;
     width: 300px;
     display: flex;
-    margin-left: 1.5em;
+    margin-right: 0.5em;
     flex-direction: column;
 }
 
@@ -342,27 +342,48 @@ form{
 
 .site3 .port {
     margin-left: 0;
+    border: solid #F2F2F2 2px;
 }
+
 
 .site3 .port img{
     height: 320px;
 
 }
 
+.site3 .pomegues{
+    border: solid #F2F2F2 2px;
+}
 .site3 .pomegues img{
     height: 160px;
+    
 }
 
 .site3 .frioul img{
     height: 90px;
+}
+.site3 .frioul{
+    border: solid #F2F2F2 2px;
+}
+
+.site3 .calanques{
+    border: solid #F2F2F2 2px;
 }
 
 .site3 .calanques img{
     height: 320px;
 }
 
+.site3 .notre-dame {
+    border: solid #F2F2F2 2px;
+}
+
 .site3 .notre-dame img{
     height: 110px;
+}
+
+.site3 .parc {
+    border: solid #F2F2F2 2px;
 }
 
 .site3 .parc img{
