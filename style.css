@@ -10,28 +10,18 @@ header{
     flex-direction: column;
 }
 
-.logo{
-    width: 150px;
-}
-
-
-.logo img{
-    width: 100%;
-
-}
-
 .ancres
 {
     display: flex;
     padding: 0;
-    margin-left: 50%;
+    margin-left: 30%;
     
 }
 
 
 .ancres li{
     list-style: none;
-    padding: 0 20%;
+    padding-right: 15%;
     
     
 }
@@ -688,13 +678,40 @@ footer .hebergements{
 
 
 @media screen and (min-width:768px) and (max-width: 1023px){
+   
     
-.ancres{
-    margin: 100%;
-    order: 3;
-    margin: 0;
+ .ancres
+    {
+        display: flex;
+        padding: 0;
+        margin-left: 50%;
+        
+    }       
+.ancres li{
+        list-style: none;
+        padding-right: 15%;
+        
+        
+    }
+    
+ .ancres a .inscription a{
+        text-decoration: none;
+        color: blue;
+    
+    }
+    
+.ancres a:hover{
+        border-top: solid 1px #0065FC;
+        padding-top: 2em;
+    }
+    
+.inscription a{
+        font-weight: bold;
+    }   
+.ancres .inscription{
+    display: flex;
+    align-items:flex-start;
 }
-
 .menu{
     flex-wrap: wrap;
 }
@@ -702,6 +719,7 @@ footer .hebergements{
 .maincontent{
     flex-wrap: wrap;
     margin: 0;
+    align-content: center;
 }
 
 .populaires{
@@ -714,6 +732,14 @@ footer .hebergements{
     justify-content: space-evenly;
 
 }
+
+.site2 img {
+    width: 65%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.7em 0 0 0.7em;
+}
+
 .hebergements{
     order: 2;
     margin-top: 1em;
