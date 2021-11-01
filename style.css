@@ -174,7 +174,7 @@ form{
 }
 
 
-.site1 article {
+.site1 div {
     width: 230px;
     padding: 0.3em;
     border-radius: 0.7em;
@@ -712,17 +712,18 @@ footer .hebergements{
     display: flex;
     align-items:flex-start;
 }
-.menu{
+
+.menu {
     flex-wrap: wrap;
 }
 
-.maincontent{
+.maincontent {
     flex-wrap: wrap;
     margin: 0;
     align-content: center;
 }
 
-.populaires{
+.populaires {
     margin: 0;
     order: 1;
 }
