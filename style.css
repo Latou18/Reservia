@@ -257,7 +257,7 @@ form{
     margin-top: 1.5em;
 }
 
-.site2 article
+.site2 div
 {
     display: flex;
     width: 330px;
@@ -323,7 +323,7 @@ form{
 
 }
 
-.site3 article{
+.site3 div{
     border: solid #F2F2F2 2px;
     border-radius: 0.9em;
     width: 300px;
@@ -574,7 +574,7 @@ form {
 .populaires h2 {
     padding-left: 0;
 }
-.site2 article{
+.site2 div {
     width: 100%;
     margin: 0 0 0.5em 0;
     background-color: #FFF;
@@ -587,7 +587,7 @@ form {
    
 }
 
-.site1 article{
+.site1 div{
     margin: 0 0 0.5em 0;
     border: solid #F2F2F2 1px;
     width: 100%;
@@ -599,7 +599,7 @@ form {
 
 
 
-.site3 article{
+.site3 div {
     width: auto;
     margin: 0 0 0.5em 0;
     
@@ -778,7 +778,7 @@ footer .hebergements{
 }
 
 
-.site3 article {
+.site3 div {
     width: 100%;
     margin: 0;
 }
