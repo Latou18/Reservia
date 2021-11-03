@@ -1,17 +1,16 @@
-body{
+body {
     max-width: 1280px;
     margin:  0 auto;
     font-family: 'Raleway';
 }
 
-header{
+header {
     margin: 1.5em;
     display: flex;
     flex-direction: column;
 }
 
-.ancres
-{
+.ancres {
     display: flex;
     padding: 0;
     margin-left: 30%;
@@ -19,20 +18,19 @@ header{
 }
 
 
-.ancres li{
+.ancres li {
     list-style: none;
     padding-right: 15%;
-    
-    
+        
 }
 
-.ancres a .inscription a{
+.ancres a .inscription a {
     text-decoration: none;
     color: blue;
 
 }
 
-.ancres a:hover{
+.ancres a:hover {
     border-top: solid 1px #0065FC;
     padding-top: 2em;
 }
@@ -48,7 +46,7 @@ header{
     justify-content: space-between;
 }
 
-.description-de-la-page .titre{
+.description-de-la-page .titre {
     font-size: 1.3em;
 }
 
@@ -56,7 +54,7 @@ header{
     margin: 2em;
 }
 
-form{
+form {
     margin-top: 2em;
 }
 
@@ -70,18 +68,18 @@ form{
     display: none;
 }
 
-.search input[type="text"]{
+.search input[type="text"] {
     border: #F2F2F2 solid 1px;
     width: 180px;
 }
 
-.search .localisation{
+.search .localisation {
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
     padding: 0.7em;
 }
 
-.search input[type="submit"]{
+.search input[type="submit"] {
     border: none;
     border-radius: 0 10px 10px 0;
     color: white;
@@ -89,7 +87,7 @@ form{
 
 }
 
-.filtres{
+.filtres {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -97,7 +95,7 @@ form{
     margin: 2em;
 }
 
-.filtres li{
+.filtres li {
     list-style: none;
     margin-right: 5%;
 }
@@ -107,7 +105,7 @@ form{
     color: black;
 }
 
-.filtres li:not(.Filtres){
+.filtres li:not(.Filtres) {
     border: #F2F2F2 solid 1px;
     border-radius: 15px;
     padding-right: 1.5em;
@@ -115,11 +113,11 @@ form{
     font-weight: bold;
 }
 
-.filtres .Filtres{
+.filtres .Filtres {
     font-weight: bold;
 }
 
-.filtres i{
+.filtres i {
     padding: 0.4em;
     border: solid 1px white;
     border-radius: 15px;
@@ -128,20 +126,20 @@ form{
     background-color: #deebff;
 }
 
-.filtres li:not(.Filtres):hover{
+.filtres li:not(.Filtres):hover {
     background-color: #deebff;
     padding-right: 3em;
     border: #F2F2F2;
 }
 
 
-.disponibilites{
+.disponibilites {
     display: flex;
     margin: 2em;
     align-items: center;
 }
 
-.disponibilites i{
+.disponibilites i {
     margin-right: 5px;
     border: solid #F2F2F2 2px;
     background-color: #0065FC;
@@ -150,7 +148,7 @@ form{
 }
 
 
-.hebergements{
+.hebergements {
     display: flex;
     flex-direction: column;
     border-radius: 0.8em;
@@ -166,7 +164,7 @@ form{
 }
 
 
-.site1 img{
+.site1 img {
     width: 100%;
     height: 120px;
     object-fit: cover;
@@ -196,32 +194,32 @@ form{
     padding-top: 1.5em;
 }
 
-.site1 .presentation{
+.site1 .presentation {
     display: flex;
     flex-direction: column;
     
 }
 
 
-.presentation h3{
+.presentation h3 {
     font-size: 0.9em;
     margin-bottom: 0;
 
 }
 
 
-.presentation p{
+.presentation p {
     font-size: 0.9em;
     margin: 0;
     line-height: 1.5em;
 }
 
 
-.un{
+.un {
     color: #0065FC;
 }
 
-.deux{
+.deux {
     color: #F2F2F2;
 }
 
@@ -235,7 +233,7 @@ form{
     margin-left: 1.5em;
 }
 
-.populaires .titre{
+.populaires .titre {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -257,8 +255,7 @@ form{
     margin-top: 1.5em;
 }
 
-.site2 div
-{
+.site2 div {
     display: flex;
     width: 330px;
     height: 130px;
@@ -273,7 +270,6 @@ form{
 
 .site2 img {
     width: 130px;
-    height: 100%;
     object-fit: cover;
     border-radius: 0.7em 0 0 0.7em;
 }
@@ -284,21 +280,20 @@ form{
 }
 
 
-
-.site2 .presentation2{
+.site2 .presentation2 {
     display: flex;
     flex-direction: column;
     margin: 0 1.5em;
     
 }
 
-.presentation2 h3{
+.presentation2 h3 {
     font-size: 0.9em;
     margin-bottom: 0;
 }
 
 
-.presentation2 p{
+.presentation2 p {
     font-size: 0.9em;
     margin: 0;
     line-height: 1.5em;
@@ -317,18 +312,17 @@ form{
     
 }
 
-.site3{
+.site3 {
     margin: 1.5em 1.5em 0 1.5em;
     display: flex;
     
-
 }
 
-.site3 div{
+.site3 div {
     border-radius: 0.9em;
     width: 300px;
     display: flex;
-    margin-right: 0.5em;
+    margin-right: 1em;
     flex-direction: column;
 }
 
@@ -346,31 +340,31 @@ form{
 }
 
 
-.site3 .port img{
+.site3 .port img {
     height: 320px;
 
 }
 
-.site3 .pomegues{
+.site3 .pomegues {
     border: solid #F2F2F2 2px;
 }
-.site3 .pomegues img{
+.site3 .pomegues img {
     height: 160px;
     
 }
 
-.site3 .frioul img{
+.site3 .frioul img {
     height: 90px;
 }
-.site3 .frioul{
+.site3 .frioul {
     border: solid #F2F2F2 2px;
 }
 
-.site3 .calanques{
+.site3 .calanques {
     border: solid #F2F2F2 2px;
 }
 
-.site3 .calanques img{
+.site3 .calanques img {
     height: 320px;
 }
 
@@ -378,7 +372,7 @@ form{
     border: solid #F2F2F2 2px;
 }
 
-.site3 .notre-dame img{
+.site3 .notre-dame img {
     height: 110px;
 }
 
@@ -386,7 +380,7 @@ form{
     border: solid #F2F2F2 2px;
 }
 
-.site3 .parc img{
+.site3 .parc img {
     height: 140px;
     
 }
@@ -408,8 +402,7 @@ form{
 }
 
 
-footer 
-{
+footer {
     margin-top: 3em;
     display: flex;
     justify-content: flex-start;
@@ -418,30 +411,29 @@ footer
     padding: 1.5em;
 }
 
-footer li{
+footer li {
     list-style: none;
     line-height: 1.5em;
     font-size: 0.9em;
 }
 
-footer ul{
+footer ul {
     padding: 0;
     margin: 0;
 }
 
-footer div
-{
+footer div {
         display: flex;
         flex-direction: column;
         
 }
 
 
-footer .hebergements, .propos{
+footer .hebergements, .propos {
     margin-right: 15em;
 }
 
-footer p{
+footer p {
     font-size: 1em;
     font-weight: bold;
     margin-bottom: 0.5em;
@@ -449,17 +441,17 @@ footer p{
 }
 
 /*Responsive*/
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-header{
+header {
     margin: 0%;
 
 }
-.menu{
+.menu {
     flex-wrap: wrap;
     margin: 1em;
 }
-.logo{
+.logo {
     margin-left: 1em;
     
 }
@@ -469,11 +461,11 @@ header{
     
 }
 
-.inscription{
+.inscription {
     margin-right: 1em;
 }
 
-.ancres{
+.ancres {
     margin: 0;
     justify-content: space-around;
     order: 3;
@@ -484,15 +476,15 @@ header{
     padding: 0;
 }
 
-.ancres a :hover{
+.ancres a :hover {
     border-top: none;
 
 }
-.ancres:hover{
+.ancres:hover {
     border-bottom: solid 1px #0065FC;
  }
 
-.description-de-la-page{
+.description-de-la-page {
 
     margin: 0.5em 0.5em
 
@@ -503,7 +495,7 @@ header{
     padding: 1em;
 }
     
-.description-de-la-page p{
+.description-de-la-page p {
     margin: 0 1.5em 0 1.5em;
     font-size: 0.9em;
 }
@@ -511,17 +503,17 @@ header{
 form {
     margin-top: 1em;
 }
-.search{
+.search {
    border: solid #F2F2F2 1px;
    border-radius: 0.8em;
    margin: 0 1em;
 
 }
-.search .localisation{
+.search .localisation {
     padding: 0.7em;
 }
 
-.search .iconecache{
+.search .iconecache {
     display: none;
     padding: 0.7em;
     border-radius: 0.8em;
@@ -530,15 +522,15 @@ form {
 
 }
 
-.search input[type="text"]{
+.search input[type="text"] {
     border: none;
     width: 100%;
 }
 
-.search input [type="submit"]{
+.search input [type="submit"] {
     display: none;
 }
-.filtres{
+.filtres {
     margin: 1em 1em 0 1em;
     flex-wrap: wrap;
 }
@@ -550,30 +542,30 @@ form {
 }
 
 
-.Filtres{
+.Filtres {
     width: 100%;
     margin-bottom: 1em;
 
 }
 
 
-.disponibilites{
+.disponibilites {
     margin: 1em;
     align-items: flex-start;
 }
 
-.disponibilites p{
+.disponibilites p {
     margin: 0;
     font-size: 0.5em;
 
 }
 
-.maincontent{
+.maincontent {
     margin: 0;
     flex-direction: column;
 }
 
-.hebergements{
+.hebergements {
     margin: 0.5em 0 0 0;
     padding: 1em 2em 2em 1em;
     background-color: white;
@@ -582,11 +574,11 @@ form {
 .hebergements h2 {
     margin-bottom: 1.5em;
 }
-.hebergements .plus{
+.hebergements .plus {
     padding-top: 1em;
 }
 
-.populaires{
+.populaires {
     margin: 0;
     padding: 0 1em 1em 1em;
     order: 1;
@@ -608,13 +600,13 @@ form {
    
 }
 
-.site1 div{
+.site1 div {
     margin: 0 0 0.5em 0;
     border: solid #F2F2F2 1px;
     width: 100%;
 }
 
-.site1 .presentation{
+.site1 .presentation {
     margin-left: 0.5em;
 }
 
@@ -627,7 +619,7 @@ form {
 }
 
 
-.site3 .frioul, .site3 .parc{
+.site3 .frioul, .site3 .parc {
     margin-top: 0;
 }
 
@@ -660,26 +652,26 @@ form {
 .activites h2 {
     margin: 1.5em 0px;
 }
-.activites{
+.activites {
     margin: 0.5em 0 0 0;
     padding: 0 1em;
 }
-.site3 .port img{
+.site3 .port img {
     height: 120px;
 }
-.site3 .frioul img{
+.site3 .frioul img {
     height: 120px;
 }
-.site3 .notre-dame img{
+.site3 .notre-dame img {
     height: 120px;
 }
 .site3 .pomegues {
     height: 120px;
 }
-.site3 .parc{
+.site3 .parc {
     height: 120px;
 }
-.site3 .calanques{
+.site3 .calanques {
     height: 120px;
 }
 
@@ -687,11 +679,11 @@ footer {
     flex-direction: column;
     align-items: flex-start;
 }
-footer .hebergements, .propos{
+footer .hebergements, .propos {
     margin: 0;
 }
 
-footer .hebergements{
+footer .hebergements {
     padding: 0;
     background-color: #F2F2F2;
 }
@@ -701,35 +693,32 @@ footer .hebergements{
 @media screen and (min-width:768px) and (max-width: 1023px){
    
     
- .ancres
-    {
+ .ancres {
         display: flex;
         padding: 0;
         margin-left: 50%;
         
     }       
-.ancres li{
+.ancres li {
         list-style: none;
-        padding-right: 15%;
-        
-        
+        padding-right: 15%;     
     }
     
- .ancres a .inscription a{
+ .ancres a .inscription a {
         text-decoration: none;
         color: blue;
     
     }
     
-.ancres a:hover{
+.ancres a:hover {
         border-top: solid 1px #0065FC;
         padding-top: 2em;
     }
     
-.inscription a{
+.inscription a {
         font-weight: bold;
     }   
-.ancres .inscription{
+.ancres .inscription {
     display: flex;
     align-items:flex-start;
 }
@@ -754,27 +743,34 @@ footer .hebergements{
     justify-content: space-evenly;
 
 }
+.site1 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: O.7em 0.7em 0 0;
+
+}
 
 .site2 img {
-    width: 65%;
-    height: 100%;
+    width: 100%;
+    height: 150px;
     object-fit: cover;
     border-radius: 0.7em 0 0 0.7em;
 }
 
-.hebergements{
+.hebergements {
     order: 2;
     margin-top: 1em;
 }
 
-.filtres{
+.filtres { 
     flex-wrap: wrap;
 }
-.filtres li{
+.filtres li {
     margin-top: 0.7em;
 
 }
-.site1{
+.site1 {
     justify-content: space-between;
 }
 .site3 {
@@ -782,19 +778,19 @@ footer .hebergements{
     justify-content: space-between;
 }
 
-.site3 .port{
+.site3 .port {
     margin-bottom: 2em;
 }
 
-.site3 .frioul{
+.site3 .frioul {
     margin-bottom: 2em;
 }
 
-.site3 .calanques{
+.site3 .calanques {
     margin-bottom: 3em;
 
 }
-.site3 .notre-dame{
+.site3 .notre-dame {
     margin-bottom: 2em;
 }
 
@@ -803,22 +799,22 @@ footer .hebergements{
     width: 100%;
     margin: 0;
 }
-.site3 div{
+.site3 div {
     width: 100%;
 }
 
-footer{
+footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-footer .propos, footer .hebergements{
+footer .propos, footer .hebergements {
     margin-right: 0;
 }
 
 }
 
-footer .hebergements{
+footer .hebergements {
     padding: 0;
     background-color: #F2F2F2;
 }
