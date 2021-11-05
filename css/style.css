@@ -1,0 +1,825 @@
+body {
+    max-width: 1280px;
+    margin:  0 auto;
+    font-family: 'Raleway';
+}
+
+header {
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.ancres {
+    display: flex;
+    padding: 0;
+    margin-left: 30%;
+    
+}
+
+
+.ancres li {
+    list-style: none;
+    padding-right: 15%;
+        
+}
+
+.ancres a .inscription a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.ancres a:hover {
+    border-top: solid 1px #0065FC;
+    padding-top: 2em;
+}
+
+
+.inscription a{
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-de-la-page .titre {
+    font-size: 1.3em;
+}
+
+.description-de-la-page {
+    margin: 2em;
+}
+
+form {
+    margin-top: 2em;
+}
+
+.search {
+    display: flex;
+    margin: 2em;
+}
+
+.search .iconecache
+{
+    display: none;
+}
+
+.search input[type="text"] {
+    border: #F2F2F2 solid 1px;
+    width: 180px;
+}
+
+.search .localisation {
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    padding: 0.7em;
+}
+
+.search input[type="submit"] {
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    background-color: #0065FC;
+
+}
+
+.filtres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0;
+    margin: 2em;
+}
+
+.filtres li {
+    list-style: none;
+    margin-right: 5%;
+}
+
+.filtres a {
+    text-decoration: none;
+    color: black;
+}
+
+.filtres li:not(.Filtres) {
+    border: #F2F2F2 solid 1px;
+    border-radius: 15px;
+    padding-right: 1.5em;
+    border-left: none;
+    font-weight: bold;
+}
+
+.filtres .Filtres {
+    font-weight: bold;
+}
+
+.filtres i {
+    padding: 0.4em;
+    border: solid 1px white;
+    border-radius: 15px;
+    margin-right: 0.8em;
+    color: blue;
+    background-color: #deebff;
+}
+
+.filtres li:not(.Filtres):hover {
+    background-color: #deebff;
+    padding-right: 3em;
+    border: #F2F2F2;
+}
+
+.disponibilites {
+    display: flex;
+    margin: 2em;
+    align-items: center;
+}
+
+.disponibilites i {
+    margin-right: 5px;
+    border: solid #F2F2F2 2px;
+    background-color: #0065FC;
+    color: #F2F2F2;
+    border-radius: 1em;
+}
+
+
+.hebergements {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8em;
+    background-color: #F2F2F2;
+    padding-left: 1.5em;
+    margin: 0;
+}
+.site1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+
+}
+
+.site1 img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: O.7em 0.7em 0 0;
+}
+
+
+.site1 div {
+    width: 230px;
+    border-radius: 0.7em;
+    background-color: white; 
+    margin: 1.5em 1.5em 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.hebergements h2 {
+    font-size: 1.2em;
+    margin: 0;
+    padding-top: 1.5em;
+}
+
+.hebergements .plus {
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+
+.site1 .presentation {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.presentation h3 {
+    font-size: 0.9em;
+    margin-bottom: 0;
+
+}
+
+
+.presentation p {
+    font-size: 0.9em;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+
+.un {
+    color: #0065FC;
+}
+
+.deux {
+    color: #F2F2F2;
+}
+
+
+.populaires {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 0.8em;
+    padding-left: 0 1.5em;
+    margin-left: 1.5em;
+}
+
+.populaires .titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.populaires h2 {
+    margin: 0;
+    font-size: 1.2em;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+}
+.populaires .titre i {
+    padding-right: 0.5em;
+}
+
+.site2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.site2 div {
+    display: flex;
+    width: 330px;
+    height: 130px;
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    padding: 0.3em;
+    border-radius: 0.7em;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+
+.site2 img {
+    width: 130px;
+    object-fit: cover;
+    border-radius: 0.7em 0 0 0.7em;
+}
+
+.maincontent {
+    display: flex;
+    margin: 1.5em 1.5em 0 1.5em;
+}
+
+
+.site2 .presentation2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5em;
+    
+}
+
+.presentation2 h3 {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+
+.presentation2 p {
+    font-size: 0.9em;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.activites {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+
+}
+
+.activites h2 {
+    margin-left: 1.5em;
+    font-size: 1.2em;
+    
+}
+
+.site3 {
+    margin: 1.5em 1.5em 0 1.5em;
+    display: flex;
+    
+}
+
+.site3 div {
+    border-radius: 0.9em;
+    width: 300px;
+    display: flex;
+    margin-right: 1em;
+    flex-direction: column;
+}
+
+.site3 img {
+    border-radius: 0.8em 0.8em 0 0;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+.site3 .port {
+    margin-left: 0;
+    border: solid #F2F2F2 2px;
+}
+
+
+.site3 .port img {
+    height: 320px;
+
+}
+
+.site3 .pomegues {
+    border: solid #F2F2F2 2px;
+}
+.site3 .pomegues img {
+    height: 160px;
+    
+}
+
+.site3 .frioul img {
+    height: 90px;
+}
+.site3 .frioul {
+    border: solid #F2F2F2 2px;
+}
+
+.site3 .calanques {
+    border: solid #F2F2F2 2px;
+}
+
+.site3 .calanques img {
+    height: 320px;
+}
+
+.site3 .notre-dame {
+    border: solid #F2F2F2 2px;
+}
+
+.site3 .notre-dame img {
+    height: 110px;
+}
+
+.site3 .parc {
+    border: solid #F2F2F2 2px;
+}
+
+.site3 .parc img {
+    height: 140px;
+    
+}
+
+
+.site3 .frioul {
+    margin-top: 1.5em;
+    
+}
+
+.site3 .parc {
+    margin-top: 1.5em;
+}
+
+.site3 h3 {
+    margin: 0;
+    font-size: 0.9em;
+    padding: 10px 0 10px 10px;
+}
+
+
+footer {
+    margin-top: 3em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 1.5em;
+}
+
+footer li {
+    list-style: none;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer div {
+        display: flex;
+        flex-direction: column;
+        
+}
+
+
+footer .hebergements, .propos {
+    margin-right: 15em;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+
+}
+
+/*Responsive*/
+@media screen and (max-width:768px) {
+
+header {
+    margin: 0%;
+
+}
+.menu {
+    flex-wrap: wrap;
+    margin: 1em;
+}
+.logo {
+    margin-left: 1em;
+    
+}
+
+.logo img {
+    padding: 1em;
+    
+}
+
+.inscription {
+    margin-right: 1em;
+}
+
+.ancres {
+    margin: 0;
+    justify-content: space-around;
+    order: 3;
+    flex-basis: 100%;
+}
+
+.ancres li {
+    padding: 0;
+}
+
+.ancres a :hover {
+    border-top: none;
+
+}
+.ancres:hover {
+    border-bottom: solid 1px #0065FC;
+ }
+
+.description-de-la-page {
+
+    margin: 0.5em 0.5em
+
+}
+
+.description-de-la-page .titre {
+    margin: 0 0.3em 0 0.3em;
+    padding: 1em;
+}
+    
+.description-de-la-page p {
+    margin: 0 1.5em 0 1.5em;
+    font-size: 0.9em;
+}
+
+form {
+    margin-top: 1em;
+}
+.search {
+   border: solid #F2F2F2 1px;
+   border-radius: 0.8em;
+   margin: 0 1em;
+
+}
+.search .localisation {
+    padding: 0.7em;
+}
+
+.search .iconecache {
+    display: none;
+    padding: 0.7em;
+    border-radius: 0.8em;
+    background-color: #0065FC;
+    color:white;
+
+}
+
+.search input[type="text"] {
+    border: none;
+    width: 100%;
+}
+
+.search input [type="submit"] {
+    display: none;
+}
+.filtres {
+    margin: 1em 1em 0 1em;
+    flex-wrap: wrap;
+}
+
+
+.filtres li:not(.Filtres) {
+    margin: 0 0.5em 0.5em 0;
+    font-size: 0.8em;
+}
+
+
+.Filtres {
+    width: 100%;
+    margin-bottom: 1em;
+
+}
+
+
+.disponibilites {
+    margin: 1em;
+    align-items: flex-start;
+}
+
+.disponibilites p {
+    margin: 0;
+    font-size: 0.5em;
+
+}
+
+.maincontent {
+    margin: 0;
+    flex-direction: column;
+}
+
+.hebergements {
+    margin: 0.5em 0 0 0;
+    padding: 1em 2em 2em 1em;
+    background-color: white;
+    order: 2;
+}
+.hebergements h2 {
+    margin-bottom: 1.5em;
+}
+.hebergements .plus {
+    padding-top: 1em;
+}
+
+.populaires {
+    margin: 0;
+    padding: 0 1em 1em 1em;
+    order: 1;
+    border-radius: 0;
+}
+.populaires h2 {
+    padding-left: 0;
+}
+.site2 div {
+    width: 100%;
+    margin: 0 0 0.5em 0;
+    background-color: #FFF;
+    padding: 0;
+    border: solid white;
+}
+
+.site2 .presentation2 {
+    margin: 0 0 0 0.5em;
+   
+}
+
+.site1 div {
+    margin: 0 0 0.5em 0;
+    border: solid #F2F2F2 1px;
+    width: 100%;
+}
+
+.site1 .presentation {
+    margin-left: 0.5em;
+}
+
+
+
+.site3 div {
+    width: auto;
+    margin: 0 0 0.5em 0;
+    
+}
+
+
+.site3 .frioul, .site3 .parc {
+    margin-top: 0;
+}
+
+.site3  .pomegues {
+    margin: 0 0 3em 0;
+}
+
+.site3  .calanques {
+    margin: 0 0 3em 0;
+}
+
+.site3  .calanques img {
+    height: 120px;
+}
+
+.site3  .parc img {
+    height: 120px;
+}
+
+.site3  .pomegues img {
+    height: 120px;
+}
+
+.site3 {
+    margin: 0;
+    flex-direction: column;
+
+}
+
+.activites h2 {
+    margin: 1.5em 0px;
+}
+.activites {
+    margin: 0.5em 0 0 0;
+    padding: 0 1em;
+}
+.site3 .port img {
+    height: 120px;
+}
+.site3 .frioul img {
+    height: 120px;
+}
+.site3 .notre-dame img {
+    height: 120px;
+}
+.site3 .pomegues {
+    height: 120px;
+}
+.site3 .parc {
+    height: 120px;
+}
+.site3 .calanques {
+    height: 120px;
+}
+
+footer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .hebergements, .propos {
+    margin: 0;
+}
+
+footer .hebergements {
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+   
+    
+ .ancres {
+        display: flex;
+        padding: 0;
+        margin-left: 50%;
+        
+    }       
+.ancres li {
+        list-style: none;
+        padding-right: 15%;     
+    }
+    
+ .ancres a .inscription a {
+        text-decoration: none;
+        color: blue;
+    
+    }
+    
+.ancres a:hover {
+        border-top: solid 1px #0065FC;
+        padding-top: 2em;
+    }
+    
+.inscription a {
+        font-weight: bold;
+    }   
+.ancres .inscription {
+    display: flex;
+    align-items:flex-start;
+}
+
+.menu {
+    flex-wrap: wrap;
+}
+
+.maincontent {
+    flex-wrap: wrap;
+    margin: 0;
+    align-content: center;
+}
+
+.populaires {
+    margin: 0;
+    order: 1;
+}
+
+.site2 { 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.site1 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: O.7em 0.7em 0 0;
+
+}
+
+.site2 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.7em 0 0 0.7em;
+}
+
+.hebergements {
+    order: 2;
+    margin-top: 1em;
+}
+
+.filtres { 
+    flex-wrap: wrap;
+}
+.filtres li {
+    margin-top: 0.7em;
+
+}
+.site1 {
+    justify-content: space-between;
+}
+.site3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site3 .port {
+    margin-bottom: 2em;
+}
+
+.site3 .frioul {
+    margin-bottom: 2em;
+}
+
+.site3 .calanques {
+    margin-bottom: 3em;
+
+}
+.site3 .notre-dame {
+    margin-bottom: 2em;
+}
+
+
+.site3 div {
+    width: 100%;
+    margin: 0;
+}
+.site3 div {
+    width: 100%;
+}
+
+footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .propos, footer .hebergements {
+    margin-right: 0;
+}
+
+}
+
+footer .hebergements {
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
