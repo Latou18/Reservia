@@ -1,8 +1,8 @@
 body {
     max-width: 1280px;
     margin:  0 auto;
-    font-family: 'Raleway' Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    font-family: Raleway;
 }
 
 header {
@@ -483,8 +483,8 @@ header {
 .ancres a :hover {
     border-top: none;
 }
-.ancres:hover{
-    border-bottom: solid 1px #0065FC;
+.ancres a :hover{
+    border-bottom: solid 2px #0065FC;
  }
 
 .description-de-la-page {
@@ -615,9 +615,19 @@ form {
 }
 
 .site1 .presentation {
-    margin-left: 0.5em;
+    margin-left: 0;
+    margin-top: 0.1em;
+    margin-bottom: 0;
 }
 
+.site1 p{
+    margin-left: 0.5em;
+
+}
+
+.site1 h3{
+    margin-left: 0.5em;
+}
 
 
 .site3 div {
