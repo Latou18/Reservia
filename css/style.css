@@ -448,6 +448,11 @@ footer p {
 /*Responsive*/
 @media screen and (max-width:768px) {
 
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
 header {
     margin: 0%;
 }
@@ -708,7 +713,12 @@ footer .hebergements {
 
 
 
-@media screen and (min-width:768px) and (max-width: 1023px){
+@media screen and (min-width:769px) and (max-width: 1023px){
+
+body{
+    overflow-x: hidden;
+    margin: 1.5em;
+}
 
  .ancres {
         display: flex;
