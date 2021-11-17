@@ -1,6 +1,6 @@
 body {
     max-width: 1280px;
-    margin:  0 auto;
+    margin: 0;
     overflow-x: hidden;
     font-family: 'Raleway';
 }
@@ -257,7 +257,7 @@ form {
 .site2 {
     display: flex;
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 1em;
 }
 
 .site2 div {
@@ -390,7 +390,6 @@ form {
     
 }
 
-
 .site3 .frioul {
     margin-top: 1.5em;
     
@@ -478,7 +477,7 @@ header {
     justify-content: space-around;
     order: 3;
     flex-basis: 100%;
-    border-bottom: #0065FC solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
     border-top: none;
 }
 
@@ -488,6 +487,7 @@ header {
 }
 
 .ancres a:hover {
+    border-bottom: #0065FC solid 2px;
     border-top: none;
 }
 
@@ -709,12 +709,15 @@ footer .hebergements {
     background-color: #F2F2F2;
 }
 
-/
-@media screen and (min-width:768px) and (max-width: 1023px){
+footer p{
+    font-weight: bold;
+}
 
-body{
+@media screen and (min-width: 810px) and (max-width: 1080px){
+
+body {
     overflow-x: hidden;
-    margin: 1.5em;
+    margin: 0;
 }
 
 .ancres {
@@ -723,23 +726,22 @@ body{
         margin-left: 50%;
         width: 100%;
         border-bottom: none;    
-    } 
+} 
 
 .ancres li {
         list-style: none;
         padding-right: 80%;     
-    }
+ }
     
  .ancres a .inscription a {
         text-decoration: none;
         color: blue;
-    
-    }
+ }
     
 .ancres a:hover {
         border-top: solid 1px #0065FC;
         padding-top: 2em;
-    }
+ }
     
 .inscription{
     margin: 0;
@@ -747,7 +749,8 @@ body{
 
 .inscription a {
         font-weight: bold;
-    }   
+}
+
 .ancres .inscription {
     display: flex;
     align-items:flex-start;
@@ -771,7 +774,6 @@ body{
 .site2 { 
     flex-flow: row wrap;
     justify-content: space-evenly;
-
 }
 
 .site1 img {
@@ -843,8 +845,6 @@ footer {
 
 footer .propos, footer .hebergements {
     margin-right: 0;
-}
-
 }
 
 footer .hebergements {
