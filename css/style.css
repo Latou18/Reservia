@@ -14,8 +14,7 @@ header {
 .ancres {
     display: flex;
     padding: 0;
-    margin-left: 40%;
-       
+    margin-left: 40%;     
 }
 
 .ancres a {
@@ -37,6 +36,7 @@ header {
 .ancres a:hover {
     border-top: solid 1px #0065FC;
     padding-top: 2em;
+    color: #0065FC;
 }
 
 
@@ -152,7 +152,6 @@ form {
     border-radius: 1em;
 }
 
-
 .hebergements {
     display: flex;
     flex-direction: column;
@@ -175,7 +174,6 @@ form {
     border-radius: O.7em 0.7em 0 0;
 }
 
-
 .site1 div {
     width: 225px;
     border-radius: 0.7em;
@@ -185,7 +183,6 @@ form {
     flex-direction: column;
     overflow: hidden;
     border: solid white;
-
 }
 
 .hebergements h2 {
@@ -212,13 +209,11 @@ form {
 
 }
 
-
 .presentation p {
     font-size: 0.9em;
     margin: 0;
     line-height: 1.5em;
 }
-
 
 .un {
     color: #0065FC;
@@ -227,7 +222,6 @@ form {
 .deux {
     color: #F2F2F2;
 }
-
 
 .populaires {
     display: flex;
